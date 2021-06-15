@@ -1,0 +1,18 @@
+<% if alert %>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <p class="alert"><%= alert %></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+<% end %>
+
+<% if notice %>
+  <div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <p class="alert"><%= notice %></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+<% end %>
+
